@@ -5,9 +5,9 @@ class Proxy3:
         pass
 
     def proxy(self):
-        r = requests.get('https://spys.me/proxy.txt')
-        output = json.loads(r)
-        print(output);
+        r = requests.get('https://gimmeproxy.com/api/getProxy?post=true&protocol=http&maxCheckPeriod=3600')
+        output = json.loads(r.text)
+        #print(output);
         PROXY = output['ipPort']
         return [r]
 
