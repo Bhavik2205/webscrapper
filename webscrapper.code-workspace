@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../webscrapper"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../Binance-smart-trading-Bot"
+		}
+	],
+	"settings": {}
+}
